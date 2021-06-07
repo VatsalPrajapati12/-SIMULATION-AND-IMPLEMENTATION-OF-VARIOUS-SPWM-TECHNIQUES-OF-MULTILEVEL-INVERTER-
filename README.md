@@ -25,7 +25,7 @@ The outcome of this project is to compare the SPWM’s two technique & to analys
 
 ![image](https://user-images.githubusercontent.com/85278130/121054836-5ce15000-c7da-11eb-958a-719d99774c1c.png)
 
-FIG1 :- Three phase five level CHB MLI
+         FIG1 :- Three phase five level CHB MLI
 
 CONTROL TECHNIQUES OF MULTILEVEL INVERTER(MLI)
 
@@ -100,6 +100,127 @@ FFT ANALYSIS
   
       FIG11:- FFT analysis of 3-Phase Line voltage **THD=31.75%**
   
+ LEVEL SHIFTED SPWM TECHNIQUE
   
+  IN PHASE DISPOSITION  TECHNIQUE(IPD)
+  
+  CIRCUIT DIAGRAM OF 1-PHASE 5-LEVEL INVETER CONTROLLED BY IPD
+  
+  ![image](https://user-images.githubusercontent.com/85278130/121059644-543f4880-c7df-11eb-8a80-bcff26fabadc.png)
+
+     FIG12:- Circuit Diagram Of 1-Phase  5-Level Inverter Controlled By IPD
+
+RESULTS
+
+GATING SIGNALS
+
+![image](https://user-images.githubusercontent.com/85278130/121059783-7f299c80-c7df-11eb-95fb-b10615bd46d0.png)
+
+    FIG13:-Waveform of Gating Signal To Various Switches Of 5-Level Inverter Controlled By IPD Level Shift Technique
+
+OUTPUT VOLTAGE
+
+![image](https://user-images.githubusercontent.com/85278130/121059910-9e282e80-c7df-11eb-974d-332cb991c335.png)
+
+    FIG14:- Output waveform of 1-Phase 5-Level Inverter Controlled By IPD Level shifted technique ,Mf =20, Ma =0.8
+
+FFT ANALYSIS
+
+![image](https://user-images.githubusercontent.com/85278130/121060016-b9933980-c7df-11eb-801a-e13a7de62b8b.png)
+
+     FIG15:-FFT analysis of Output Voltage of 1-Phase MLI using IPD**THD=38.88%**
+
+3-PHASE 5-LEVEL INVETER CONTROLLED  BY IPD
+
+![image](https://user-images.githubusercontent.com/85278130/121060139-dfb8d980-c7df-11eb-81b2-a1e8efb1c6c4.png)
+
+      FIG16 :- Circuit Diagram Of 3-Phase 5-Level Inverter Controlled  BY IPD
+
+RESULTS
+
+ OUTPUT VOLTAGE
+
+ PHASE VOLTAGE
+
+![image](https://user-images.githubusercontent.com/85278130/121060249-05de7980-c7e0-11eb-97cc-3a3984295f9b.png)
+ 
+      FIG17:- Waveform of Phase Voltage of 3-Phase MLI using IPD
+
+LINE  VOLTAGE
+
+![image](https://user-images.githubusercontent.com/85278130/121060372-2c041980-c7e0-11eb-832c-779ee81d592f.png)
+
+    FIG18:- Waveform of Line Voltage of 3-Phase MLI using IPD
+
+FFT ANALYSIS
+
+FFT ANALYSIS OF PHASE VOLTAGE 
+
+![image](https://user-images.githubusercontent.com/85278130/121060454-4807bb00-c7e0-11eb-9327-60e7b3a2bf21.png)
+
+    FIG19:- FFT analysis of 3-Phase Line to Ground voltage **THD=38.88%**
+
+FFT ANALYSIS OF LINE VOLTAGE 
+
+![image](https://user-images.githubusercontent.com/85278130/121060531-68377a00-c7e0-11eb-9f62-51be4e4bcb6d.png)
+ 
+     FIG20:- FFT analysis of 3-Phase Line voltage **THD=21.34%**
+    
+PHASE OPPOSITE DISPOSITION TECHNIQUE(POD)
+
+CIRCUIT DIAGRAM OF 1-PHASE 5-LEVEL INVETER CONTROLLED BY POD TECHNIQUE
+
+![image](https://user-images.githubusercontent.com/85278130/121060705-a03ebd00-c7e0-11eb-8f57-17392d49d570.png)
+
+     FIG21 :-Circuit Diagram Of 3-Phase 5-Level Inverter  Controlled By SPWM POD Level Shifted Technique
+
+RESULTS
+
+GATING SIGNALS
+
+![image](https://user-images.githubusercontent.com/85278130/121060880-d1b78880-c7e0-11eb-9407-f3b39769c80d.png)
+
+      FIG22:- Waveform of Gating Signal To Various Switches Of 5-Level Inverter Controlled By POD Level Shift Technique
+
+OUTPUT VOLTAGE
+
+![image](https://user-images.githubusercontent.com/85278130/121060981-e98f0c80-c7e0-11eb-9c5b-840b196cb0d5.png)
+
+        FIG23:- Output waveform of 1-Phase 5-Level Inverter Controlled By POD Level shifted technique ,Mf=20,Ma=0.8
+
+FFT ANALYSIS
+
+![image](https://user-images.githubusercontent.com/85278130/121061049-03305400-c7e1-11eb-861f-706d56d08780.png)
+
+       FIG24:- FFT analysis of Output Voltage of 1-Phase MLI using POD**THD=38.57%*
+
+CIRCUIT DIAGRAM OF 3-PHASE 5-LEVEL INVETER CONTROLLED BY POD TECHNIQUE
+
+![image](https://user-images.githubusercontent.com/85278130/121061128-19d6ab00-c7e1-11eb-94f0-09b1c320948d.png)
+
+      FIG25:- CIRCUIT DIAGRAM OF 3-PHASE 5-LEVEL INVETER CONTROLLED  BY POD
+
+RESULTS
+
+OUTPUT VOLTAGE
+
+PHASE VOLTAGE      
+
+![image](https://user-images.githubusercontent.com/85278130/121061382-67ebae80-c7e1-11eb-8844-1a0a8ae80d6c.png)
+
+      FIG26:-Waveform of Line Voltage of 3-Phase Line To Ground Voltage MLI using POD
+
+LINE  VOLTAGE
+
+![image](https://user-images.githubusercontent.com/85278130/121061461-7df96f00-c7e1-11eb-9d9f-eb6b6cb19bce.png)
 
 
+         FIG27- Waveform of Line Voltage of 3-Phase MLI using POD
+
+FFT ANALYSIS
+
+FFT ANALYSIS OF PHASE VOLTAGE 
+
+![image](https://user-images.githubusercontent.com/85278130/121061557-9d909780-c7e1-11eb-83b5-8aed2fccf778.png)
+
+             FIG28:- FFT analysis of 3-Phase Line To Ground voltage using POD **THD=38.57%**
