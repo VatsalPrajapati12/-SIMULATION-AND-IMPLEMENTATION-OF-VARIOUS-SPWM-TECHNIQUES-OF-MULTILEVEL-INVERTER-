@@ -25,7 +25,7 @@ The outcome of this project is to compare the SPWM’s two technique & to analys
 
 ![image](https://user-images.githubusercontent.com/85278130/121054836-5ce15000-c7da-11eb-958a-719d99774c1c.png)
 
-FIG:-Three phase five level CHB MLI
+FIG1 :- Three phase five level CHB MLI
 
 CONTROL TECHNIQUES OF MULTILEVEL INVERTER(MLI)
 
@@ -37,59 +37,68 @@ MATLAB SIMULATION & RESULT
 
 1. CIRCUIT DIAGRAM OF 1-PHASE 5-LEVEL INVERTER 
 
+
  ![image](https://user-images.githubusercontent.com/85278130/121055531-f6106680-c7da-11eb-9f00-e1b060988086.png)
              
-             FIG3 Circuit Diagram Of 5-Level Inverter Controlled By Phase Shifted SPWM Technique
+             FIG3 :- Circuit Diagram Of 5-Level Inverter Controlled By Phase Shifted SPWM Technique
+
 
 RESULTS
 
+
 GATE PULSES
+
 
 ![image](https://user-images.githubusercontent.com/85278130/121055935-556e7680-c7db-11eb-9115-6597f630ba4c.png)
 
-FIG4 Waveform of Gating Signal To Various Switches Of 5-Level Inverter Controlled By Phase Shift Technique
+    FIG4 :- Waveform of Gating Signal To Various Switches Of 5-Level Inverter Controlled By Phase Shift Technique
+
 
 OUTPUT VOLTAGE
 
+
 ![image](https://user-images.githubusercontent.com/85278130/121056264-a67e6a80-c7db-11eb-8c1e-d9710cc1141e.png)
 
-FIG5 Output waveform of 1-Phase 5-Level Inverter Controlled By SPWM Phase shifted technique, Mf=20,Ma=0.8
-
+     FIG5:-Output waveform of 1-Phase 5-Level Inverter Controlled By SPWM Phase shifted technique, Mf=20,Ma=0.8
+  
 FFT ANALYSIS
 
 ![image](https://user-images.githubusercontent.com/85278130/121056436-d299eb80-c7db-11eb-93a3-0fb4441a2d6d.png)
 
-FIG6 FFT analysis  Of 5-Level Inverter Controlled By SPWM Phase shift technique**THD=38.34%
+     FIG6 :-FFT analysis  Of 5-Level Inverter Controlled By SPWM Phase shift technique**THD=38.34%
 
-2. 3-PHASE 5-LEVEL INVERTER  CONTROLLED BY SPWM PHASE SHIFTED TECHNIQUE
+ 2. 3-PHASE 5-LEVEL INVERTER  CONTROLLED BY SPWM PHASE SHIFTED TECHNIQUE
 
 ![image](https://user-images.githubusercontent.com/85278130/121056599-fbba7c00-c7db-11eb-9cba-501064287fb5.png)
 
-FIG7 Circuit Diagram Of 3-Phase 5-Level Inverter  Controlled By SPWM Phase Shifted Technique
+     FIG7:- Circuit Diagram Of 3-Phase 5-Level Inverter  Controlled By SPWM Phase Shifted Technique
 
-RESULTS
-VOLTAGE WAVEFORMS 
- PHASE VOLTAGES
+ RESULTS
+    VOLTAGE WAVEFORMS 
+           PHASE VOLTAGES
+ 
  ![image](https://user-images.githubusercontent.com/85278130/121056748-27d5fd00-c7dc-11eb-8942-873d441894db.png)
  
- FIG8 Line To Ground Voltage
+    FIG8 :- Line To Ground Voltage
 
-LINE VOLTAGE VOLTAGES
+  LINE VOLTAGE VOLTAGES
 
 ![image](https://user-images.githubusercontent.com/85278130/121056897-50f68d80-c7dc-11eb-84f5-cd8c09b2eeab.png)
 
-FIG9 Line To Line Voltage
+    FIG9 :- Line To Line Voltage
 
-FFT ANALYSIS
-  FFT ANALYSIS OF PHASE VOLTAGE
+ FFT ANALYSIS
+ FFT ANALYSIS OF PHASE VOLTAGE
   ![image](https://user-images.githubusercontent.com/85278130/121057016-75eb0080-c7dc-11eb-885f-6826a9eb0dfd.png)
   
-  FIG10 FFT analysis of 3-Phase Phase voltage**THD=40.83
+      FIG10:- FFT analysis of 3-Phase Phase voltage**THD=40.83
+  
   
   FFT ANALYSIS OF LINE VOLTAGE
+  
   ![image](https://user-images.githubusercontent.com/85278130/121057107-8e5b1b00-c7dc-11eb-8875-b55eb75cf9fd.png)
   
-  FIG11 FFT analysis of 3-Phase Line voltage **THD=31.75%**
+      FIG11:- FFT analysis of 3-Phase Line voltage **THD=31.75%**
   
   
 
