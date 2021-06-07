@@ -89,9 +89,11 @@ FFT ANALYSIS
 
  FFT ANALYSIS
  FFT ANALYSIS OF PHASE VOLTAGE
+ 
   ![image](https://user-images.githubusercontent.com/85278130/121057016-75eb0080-c7dc-11eb-885f-6826a9eb0dfd.png)
   
-      FIG10:- FFT analysis of 3-Phase Phase voltage**THD=40.83
+  
+        FIG10:- FFT analysis of 3-Phase Phase voltage**THD=40.83
   
   
   FFT ANALYSIS OF LINE VOLTAGE
@@ -224,3 +226,120 @@ FFT ANALYSIS OF PHASE VOLTAGE
 ![image](https://user-images.githubusercontent.com/85278130/121061557-9d909780-c7e1-11eb-83b5-8aed2fccf778.png)
 
              FIG28:- FFT analysis of 3-Phase Line To Ground voltage using POD **THD=38.57%**
+
+FFT ANALYSIS OF LINE VOLTAGE 
+
+
+![image](https://user-images.githubusercontent.com/85278130/121062058-40e1ac80-c7e2-11eb-8b7c-a5b74144a36a.png)
+
+
+           FIG29:- FFT analysis of 3-Phase Line voltage using POD **THD=35.37%**
+
+ALTERNATE PHASE OPPOSITE DISPOSITION TECHNIQUE(APOD):-
+
+
+CIRCUIT DIAGRAM OF 1-PHASE 5-LEVEL INVETER CONTROLLED BY APOD
+
+![image](https://user-images.githubusercontent.com/85278130/121062203-6d95c400-c7e2-11eb-9571-3d64dd3203c8.png)
+
+ 
+         FIG30:- Circuit Diagram Of 1-Phase 5-Level Inverter  Controlled By SPWM APOD Level Shifted Technique
+
+
+RESULTS 
+
+GATING SIGNALS
+
+ ![image](https://user-images.githubusercontent.com/85278130/121062328-8f8f4680-c7e2-11eb-967d-6ca8d201474a.png)
+
+         FIG31:-Waveform of Gating Signal To Various Switches Of 5-Level Inverter Controlled By APOD Level Shift Technique
+
+OUTPUT VOLTAGE
+
+![image](https://user-images.githubusercontent.com/85278130/121062391-a3d34380-c7e2-11eb-8f92-46de7aef8898.png)
+
+        
+       FIG32:- Output waveform of 1-Phase 5-Level Inverter Controlled By SPWM APOD Level Shifted  Technique ,Mf =20, Ma =0.8
+
+
+FFT ANALYSIS
+
+![image](https://user-images.githubusercontent.com/85278130/121062425-b0f03280-c7e2-11eb-9e96-7c3887bc29b1.png)
+
+       FIG33:- FFT analysis of Output Voltage of 1-Phase MLI using APOD**THD=39.10%**
+
+3-PHASE 5-LEVEL INVETER CONTROLLED  BY APOD
+
+![image](https://user-images.githubusercontent.com/85278130/121062545-d3824b80-c7e2-11eb-8411-0a89e3efa3f2.png)
+
+
+FIG34:- CIRCUIT DIAGRAM OF 3-PHASE 5-LEVEL INVETER CONTROLLED  BY APOD
+         
+
+ RESULTS
+
+OUTPUT VOLTAGE
+
+PHASE VOLTAGE
+
+![image](https://user-images.githubusercontent.com/85278130/121062713-12b09c80-c7e3-11eb-8289-e9e09fa33766.png)
+
+            FIG35:- Waveform of Voltage of 3-Phase Line To Ground Voltage MLI using APOD
+
+LINE  VOLTAGE
+
+![image](https://user-images.githubusercontent.com/85278130/121062830-307e0180-c7e3-11eb-9a40-7888e8132c39.png)
+
+         FIG36:-Waveform of Line Voltage of 3-Phase MLI using APOD
+
+FFT ANALYSIS
+
+FFT ANALYSIS OF PHASE VOLTAGE 
+
+![image](https://user-images.githubusercontent.com/85278130/121063001-67541780-c7e3-11eb-98dc-38b05f14b6de.png)
+
+      FIG37:-FFT analysis of 3-Phase Line To Ground voltage using APOD **THD=39.10%**
+
+FFT ANALYSIS OF LINE VOLTAGE 
+
+![image](https://user-images.githubusercontent.com/85278130/121063084-82bf2280-c7e3-11eb-8b4c-b3254589f239.png)
+
+ 
+       FIG38:- FFT analysis of 3-Phase Line voltage using APOD **THD=29.79%**
+
+
+SIMULATION RESULTS AT GLANCE:-
+ 
+ ![image](https://user-images.githubusercontent.com/85278130/121066020-11816e80-c7e7-11eb-9a62-ed819d78d0d7.png)
+
+
+HARDWARE
+
+![image](https://user-images.githubusercontent.com/85278130/121063468-f6612f80-c7e3-11eb-85fd-1af9a6d7c5fb.png)
+
+          FIG39:-CIRCUIT DIAGRAM
+          
+
+Hardware implementation
+
+![image](https://user-images.githubusercontent.com/85278130/121063582-214b8380-c7e4-11eb-9c03-99384c3f3127.png)
+
+
+CONCLUSION
+
+The cascaded multilevel inverters have evolved from a theoretical concept to real applications due to several remarkable features like a high degree of modularity, the possibility of connecting directly to medium voltage, low harmonic distortion, and the control of power flow in the regenerative version. The focus of this project is limited to basic concept of different MLI and comparative study of different PWM generation methods and its impact on inverter output.
+
+REFERENCE
+
+
+[1]A. Kale, A. Tamhane and A. Kalage, "Comparative study of SPWM And SVPWM cascaded h-bridge multilevel inverter", 2017 International Conference on Intelligent Computing and Control (I2C2), 2017
+ 
+ [2]N. Salgado-Herrera, A. Medina-Rios, A. Ramos-Paz and J. Rodriguez-Rodriguez, "Generation of a multilevel SPWM technique of 3, 9 and 21 levels with FPGAs", 2013 North American Power Symposium (NAPS), 2013.
+
+[3] Mustafa S. Alkhazragi, Nabil K.AL-Shamaa “Cascaded H-Bridge Multilevel Inverter Using SPWM and MSPWM Strategies”, Int. Journal of Engineering Research and Application ISSN : 2248-9622, Vol. 7, Issue 6, (Part -2) June 2017, pp.14-20
+
+[4] Vinayaka B.C, S. Nagendra Prasad, “Modeling and Design of Five Level Cascaded H-Bridge Multilevel Inverter with DC/DC Boost Converter”,Int. Journal of Engineering Research and Applications ISSN : 2248-9622, Vol. 4, Issue 6( Version 5), June 2014, pp.50-55
+
+[5]B. Kumar and M. Lokhande, "An enhanced space vector PWM for nine-level inverter employing single voltage source", 2017 IEEE Transportation Electrification Conference (ITEC-India), 2017.
+
+[6] P. Bhagwat and V. Stefanovic, "Generalized Structure of a Multilevel PWM Inverter", IEEE Transactions on Industry Applications, vol. -19, no. 6, pp. 1057-1069, 1983.
